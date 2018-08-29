@@ -17,14 +17,14 @@ public class AreaCalculator {
     }
 
     public void calculateSquereArea() {
-        System.out.println("Result = " + squere.calculate());
+        System.out.println("Result:   a^2 = " + squere.calculate());
     }
 
     public void calculateRectangleArea() {
-        System.out.println("Result = " + rectangle.calculate());
+        System.out.println("Result:   a * b = " + rectangle.calculate());
     }
 
     public void calculateCircleArea() {
-        System.out.println("Result = " + circle.calculate());
+        System.out.println("Result:   pi * r^2 = " + circle.calculate());
     }
 }

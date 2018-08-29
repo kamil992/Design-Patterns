@@ -15,7 +15,6 @@ public class FacadeDemo {
     public void start() {
         Scanner scanner = new Scanner(System.in);
         AreaCalculator areaCalculator = new AreaCalculator();
-
         int opt;
         do {
             options();
