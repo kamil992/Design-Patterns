@@ -26,7 +26,5 @@ public class Test {
         German german = germanTranslator.getGermanLanguage();
         System.out.println("GR: ");
         System.out.println(german.translateToEnglish("Access modifier"));
-
-
     }
 }
